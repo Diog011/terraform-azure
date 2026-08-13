@@ -1,0 +1,23 @@
+variable "resource_group_name" {
+ description = "Data Lake Dev"
+ type = string
+ default = "rg-datalake-dev"
+}
+variable "location" {
+ description = "Regiao Azure"
+ type = string
+ default = "brazilsouth"
+}
+variable "storage_account_name" {
+ description = "Nome da Storage Account"
+ type = string
+ default = "stdatalakedev561541"
+}
+variable "tags" {
+ description = "Tags padrao dos recursos"
+ type = map(string)
+ default = {
+ ambiente = "dev"
+ projeto = "datalake-inep"
+ }
+}
