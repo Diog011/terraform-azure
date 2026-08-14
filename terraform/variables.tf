@@ -11,7 +11,7 @@ variable "location" {
 variable "storage_account_name" {
  description = "Nome da Storage Account"
  type = string
- default = "stdatalakedev561541"
+ default = "stdatalakedev561541x"
 }
 variable "tags" {
  description = "Tags padrao dos recursos"
