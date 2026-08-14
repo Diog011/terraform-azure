@@ -5,12 +5,12 @@ on:
     branches: [main]
     paths:
       - "terraform/**"
-  workflow_dispatch:
   
   push:
     branches: [main]
     paths:
       - "terraform/**"
+  workflow_dispatch:
 
 jobs:
   plan:
