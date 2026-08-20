@@ -1,6 +1,6 @@
 # Infrastructure as Code with Terraform & Azure
 
-# Terraform Azure CI/CD Pipeline
+## Terraform Azure CI/CD Pipeline
 
 Este repositório contém a automação de infraestrutura na **Microsoft Azure** utilizando **Terraform** e **GitHub Actions** para entrega contínua (CI/CD).
 
